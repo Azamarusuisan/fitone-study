@@ -9,23 +9,23 @@
   const googleMapsUrl = "https://www.google.com/maps/place/FITONE+SHIBUYA+%E2%9D%98+HYROX+TRAINING+CLUB/@35.6523576,139.7065602,17z/data=!4m14!1m7!3m6!1s0x60188b57b6827083:0xf273b5604e0c521!2sFITONE+SHIBUYA+%E2%9D%98+HYROX+TRAINING+CLUB!8m2!3d35.6523533!4d139.7091351!16s%2Fg%2F11zgrfp_7b!3m5!1s0x60188b57b6827083:0xf273b5604e0c521!8m2!3d35.6523533!4d139.7091351!16s%2Fg%2F11zgrfp_7b!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDcwOC4wIKXMDSoASAFQAw%3D%3D";
   const pageMeta = {
     "/": [
-      "FITONE SHIBUYA | 渋谷・恵比寿のHYROXトレーニングクラブ",
-      "FITONE SHIBUYAは、渋谷・恵比寿エリアでHYROXに向けたコーチ帯同レッスンとOpen Gymを提供するトレーニングクラブです。",
+      "FITONE SHIBUYA | サンプル",
+      "サンプルの文章です。",
       "/",
     ],
     "/trial/": [
-      "体験レッスン | FITONE SHIBUYA",
-      "FITONE SHIBUYAのHYROX体験レッスン案内。持ち物、所要時間、アクセス、予約導線の準備状況を確認できます。",
+      "サンプル | FITONE SHIBUYA",
+      "サンプルの文章です。",
       "/trial/",
     ],
     "/access/": [
-      "アクセス | FITONE SHIBUYA",
-      "FITONE SHIBUYAへのアクセス。東京都渋谷区東2丁目17-9 JP-BASE渋谷 1F、渋谷駅徒歩10分、恵比寿駅徒歩9分。",
+      "サンプル | FITONE SHIBUYA",
+      "サンプルの文章です。",
       "/access/",
     ],
 	    "/community/": [
-	      "コミュニティ | FITONE SHIBUYA",
-	      "FITONE SHIBUYAのコミュニティ、イベント、大会参加に関する紹介ページです。InstagramとYouTubeで日々の活動を発信しています。",
+	      "サンプル | FITONE SHIBUYA",
+	      "サンプルの文章です。",
 	      "/community/",
 	    ],
   };
@@ -40,45 +40,45 @@
   const fitCheckRecommendations = [
     {
       number: "01",
-      label: "運動を続けたい初心者の方",
-      title: "続けられる仕組みから。",
-      body: "コーチがフォームと強度を調整。少人数レッスンで、まず“通う習慣”を無理なくつくります。",
-      recommendation: "おすすめ — Monthly 4 / BASE",
+      label: "サンプルの選択肢",
+      title: "サンプル見出し",
+      body: "サンプルの文章です。",
+      recommendation: "サンプル",
     },
     {
       number: "02",
-      label: "本格的に鍛えたい方",
-      title: "強度も設計も、任せられる。",
-      body: "元アスリートのコーチが目標から逆算。週2ペースで、伸びを実感できる設計に。",
-      recommendation: "おすすめ — Monthly 8 / PRO",
+      label: "サンプルの選択肢",
+      title: "サンプル見出し",
+      body: "サンプルの文章です。",
+      recommendation: "サンプル",
     },
     {
       number: "03",
-      label: "HYROX・大会に興味がある方",
-      title: "大会から、逆算して走る。",
-      body: "HYROX専用設備とコーチングで、出場・完走まで並走。仲間と同じ舞台を目指せます。",
-      recommendation: "おすすめ — PRO ＋ Community",
+      label: "サンプルの選択肢",
+      title: "サンプル見出し",
+      body: "サンプルの文章です。",
+      recommendation: "サンプル",
     },
     {
       number: "04",
-      label: "仲間と継続したい方",
-      title: "ひとりじゃないから、続く。",
-      body: "同じ目標のチームで励まし合える。継続のいちばんの理由は、いつも仲間です。",
-      recommendation: "おすすめ — Community で仲間を見る",
+      label: "サンプルの選択肢",
+      title: "サンプル見出し",
+      body: "サンプルの文章です。",
+      recommendation: "サンプル",
     },
     {
       number: "05",
-      label: "女性でも通いやすい環境を求める方",
-      title: "はじめてでも、安心して。",
-      body: "清潔で開放的な空間。初回はコーチが一つずつ丁寧に案内するので、ひとりでも大丈夫です。",
-      recommendation: "おすすめ — まずは体験レッスン",
+      label: "サンプルの選択肢",
+      title: "サンプル見出し",
+      body: "サンプルの文章です。",
+      recommendation: "サンプル",
     },
     {
       number: "06",
-      label: "今のジムでは物足りない方",
-      title: "次のレベルへ、環境から。",
-      body: "本格HYROX設備×コーチングで、伸び悩みを超える強度設計を用意します。",
-      recommendation: "おすすめ — All Access / UNLIMITED",
+      label: "サンプルの選択肢",
+      title: "サンプル見出し",
+      body: "サンプルの文章です。",
+      recommendation: "サンプル",
     },
   ];
 
@@ -391,7 +391,7 @@
       card.style.cursor = "default";
       label.setAttribute("role", "button");
       label.setAttribute("tabindex", "0");
-      label.setAttribute("aria-label", `${card.dataset.cardLabel || "動画"}を再生`);
+      label.setAttribute("aria-label", "サンプル");
       label.style.cursor = "pointer";
       if (label.dataset.productionPlaybackControl !== "true") {
         label.dataset.productionPlaybackControl = "true";
@@ -403,7 +403,7 @@
     });
     document.querySelectorAll(".production-video-replay").forEach((button) => {
       if (button.textContent !== "WATCH →") button.textContent = "WATCH →";
-      button.setAttribute("aria-label", "動画を再生");
+      button.setAttribute("aria-label", "サンプル");
     });
     if (!heroVideoInteractionBound) {
       heroVideoInteractionBound = true;
@@ -450,7 +450,7 @@
       if (link.dataset.productionMembershipLink === "true") return;
       link.dataset.productionMembershipLink = "true";
       link.setAttribute("href", "/#membership");
-      link.setAttribute("aria-label", "メンバーシップを見る");
+      link.setAttribute("aria-label", "サンプル");
       link.style.cursor = "pointer";
       link.addEventListener("keydown", (event) => {
         if (event.key !== " ") return;
@@ -524,10 +524,10 @@
   function contactStatusMessage() {
     const status = new URLSearchParams(window.location.search || "").get("contact");
     if (status === "sent") {
-      return '<div class="border border-[#d4ff3f]/40 bg-[#d4ff3f]/12 px-4 py-3 text-[0.9rem] leading-[1.7] text-[#d4ff3f]">お問い合わせを受け付けました。内容を確認のうえ、担当よりご連絡します。</div>';
+      return '<div class="border border-[#d4ff3f]/40 bg-[#d4ff3f]/12 px-4 py-3 text-[0.9rem] leading-[1.7] text-[#d4ff3f]">サンプルの文章です。</div>';
     }
     if (status === "error") {
-      return '<div class="border border-red-300/30 bg-red-400/10 px-4 py-3 text-[0.9rem] leading-[1.7] text-red-100">送信できませんでした。入力内容をご確認のうえ、時間をおいて再度お試しください。</div>';
+      return '<div class="border border-red-300/30 bg-red-400/10 px-4 py-3 text-[0.9rem] leading-[1.7] text-red-100">サンプルの文章です。</div>';
     }
     return "";
   }
@@ -546,16 +546,16 @@
       <div class="pointer-events-none absolute inset-0"><div class="hero-noise"></div><div class="absolute inset-0 bg-[radial-gradient(circle_at_78%_18%,rgba(212,255,63,0.08),transparent_16%),radial-gradient(circle_at_16%_80%,rgba(255,255,255,0.05),transparent_20%)]"></div></div>
       <div aria-hidden="true" class="pointer-events-none absolute inset-x-[-8%] top-10 font-sans text-[18vw] font-semibold uppercase leading-none tracking-[-0.08em] text-white/[0.04]">CONTACT</div>
       <div class="relative z-10 mx-auto grid max-w-[1680px] gap-10 lg:grid-cols-[minmax(0,0.72fr)_minmax(28rem,0.92fr)] lg:items-start lg:gap-14">
-        <div><div class="text-[0.82rem] uppercase tracking-[0.1em] text-white/54">CONTACT</div><h2 class="fitone-heading-balance mt-5 max-w-[9em] font-sans font-medium leading-[0.94] tracking-[-0.03em] text-[#f4f0e6]">お問い合わせ</h2><p class="mt-6 max-w-[34rem] text-[1rem] leading-[1.9] text-white/68">取材、その他のご相談はこちらからお問い合わせください。</p></div>
+        <div><div class="text-[0.82rem] uppercase tracking-[0.1em] text-white/54">CONTACT</div><h2 class="fitone-heading-balance mt-5 max-w-[9em] font-sans font-medium leading-[0.94] tracking-[-0.03em] text-[#f4f0e6]">サンプル</h2><p class="mt-6 max-w-[34rem] text-[1rem] leading-[1.9] text-white/68">サンプルの文章です。</p></div>
         <form action="${contactApiUrl}" method="post" accept-charset="UTF-8" class="grid gap-5 border border-white/10 bg-white/[0.035] p-5 sm:p-6 lg:p-7" data-production-contact-form="true">
           ${contactStatusMessage()}
-          <div class="grid gap-4 sm:grid-cols-2"><label class="grid gap-2 text-[0.76rem] uppercase tracking-[0.1em] text-white/54"><span class="production-contact-label">姓 <span aria-hidden="true">*</span></span><input name="last_name" autocomplete="family-name" required maxlength="80" class="min-h-[52px] border border-white/12 bg-black/24 px-4 text-[1rem] text-[#f4f0e6] outline-none focus:border-[#d4ff3f]/70" placeholder="山田"/></label><label class="grid gap-2 text-[0.76rem] uppercase tracking-[0.1em] text-white/54"><span class="production-contact-label">名 <span aria-hidden="true">*</span></span><input name="first_name" autocomplete="given-name" required maxlength="80" class="min-h-[52px] border border-white/12 bg-black/24 px-4 text-[1rem] text-[#f4f0e6] outline-none focus:border-[#d4ff3f]/70" placeholder="太郎"/></label></div>
-          <label class="grid gap-2 text-[0.76rem] uppercase tracking-[0.1em] text-white/54"><span class="production-contact-label">メールアドレス <span aria-hidden="true">*</span></span><input type="email" name="email" autocomplete="email" inputmode="email" required maxlength="160" class="min-h-[52px] border border-white/12 bg-black/24 px-4 text-[1rem] text-[#f4f0e6] outline-none focus:border-[#d4ff3f]/70" placeholder="yourname@example.com"/></label>
-          <label class="grid gap-2 text-[0.76rem] uppercase tracking-[0.1em] text-white/54"><span class="production-contact-label">電話番号 <span aria-hidden="true">*</span></span><input type="tel" name="phone" autocomplete="tel" required maxlength="40" class="min-h-[52px] border border-white/12 bg-black/24 px-4 text-[1rem] text-[#f4f0e6] outline-none focus:border-[#d4ff3f]/70" placeholder="090-0000-0000"/></label>
-          <label class="grid gap-2 text-[0.76rem] uppercase tracking-[0.1em] text-white/54"><span class="production-contact-label">お問い合わせ内容 <span aria-hidden="true">*</span></span><textarea name="message" required maxlength="4000" rows="7" class="min-h-[12rem] resize-y border border-white/12 bg-black/24 px-4 py-4 text-[1rem] leading-[1.75] text-[#f4f0e6] outline-none focus:border-[#d4ff3f]/70" placeholder="お問い合わせ内容をご記入ください。"></textarea></label>
+          <div class="grid gap-4 sm:grid-cols-2"><label class="grid gap-2 text-[0.76rem] uppercase tracking-[0.1em] text-white/54"><span class="production-contact-label">サンプル <span aria-hidden="true">*</span></span><input name="last_name" autocomplete="family-name" required maxlength="80" class="min-h-[52px] border border-white/12 bg-black/24 px-4 text-[1rem] text-[#f4f0e6] outline-none focus:border-[#d4ff3f]/70" placeholder="サンプル"/></label><label class="grid gap-2 text-[0.76rem] uppercase tracking-[0.1em] text-white/54"><span class="production-contact-label">サンプル <span aria-hidden="true">*</span></span><input name="first_name" autocomplete="given-name" required maxlength="80" class="min-h-[52px] border border-white/12 bg-black/24 px-4 text-[1rem] text-[#f4f0e6] outline-none focus:border-[#d4ff3f]/70" placeholder="サンプル"/></label></div>
+          <label class="grid gap-2 text-[0.76rem] uppercase tracking-[0.1em] text-white/54"><span class="production-contact-label">サンプル <span aria-hidden="true">*</span></span><input type="email" name="email" autocomplete="email" inputmode="email" required maxlength="160" class="min-h-[52px] border border-white/12 bg-black/24 px-4 text-[1rem] text-[#f4f0e6] outline-none focus:border-[#d4ff3f]/70" placeholder="sample@example.com"/></label>
+          <label class="grid gap-2 text-[0.76rem] uppercase tracking-[0.1em] text-white/54"><span class="production-contact-label">サンプル <span aria-hidden="true">*</span></span><input type="tel" name="phone" autocomplete="tel" required maxlength="40" class="min-h-[52px] border border-white/12 bg-black/24 px-4 text-[1rem] text-[#f4f0e6] outline-none focus:border-[#d4ff3f]/70" placeholder="000-0000-0000"/></label>
+          <label class="grid gap-2 text-[0.76rem] uppercase tracking-[0.1em] text-white/54"><span class="production-contact-label">サンプル <span aria-hidden="true">*</span></span><textarea name="message" required maxlength="4000" rows="7" class="min-h-[12rem] resize-y border border-white/12 bg-black/24 px-4 py-4 text-[1rem] leading-[1.75] text-[#f4f0e6] outline-none focus:border-[#d4ff3f]/70" placeholder="サンプル"></textarea></label>
           <div class="production-contact-honeypot" aria-hidden="true"><label>Website<input type="text" name="website" tabindex="-1" autocomplete="off"/></label></div>
-          <p class="text-[0.78rem] leading-[1.7] text-white/42">送信により、入力内容をお問い合わせ対応のために利用することに同意したものとします。</p>
-          <button type="submit" class="inline-flex min-h-[52px] items-center justify-center gap-3 border border-[#d4ff3f] bg-[#d4ff3f] px-5 py-3 text-[0.92rem] tracking-[0.08em] text-[#050505] transition-colors duration-300 hover:bg-[#e0ff67]"><span>問い合わせを送信する</span><span aria-hidden="true">→</span></button>
+          <p class="text-[0.78rem] leading-[1.7] text-white/42">サンプルの文章です。</p>
+          <button type="submit" class="inline-flex min-h-[52px] items-center justify-center gap-3 border border-[#d4ff3f] bg-[#d4ff3f] px-5 py-3 text-[0.92rem] tracking-[0.08em] text-[#050505] transition-colors duration-300 hover:bg-[#e0ff67]"><span>サンプル</span><span aria-hidden="true">→</span></button>
         </form>
       </div>`;
     footer.parentElement.insertBefore(section, footer);
@@ -572,8 +572,8 @@
     const updateValidity = (field) => {
       const value = String(field.value || "").trim();
       field.setCustomValidity("");
-      if (!value) field.setCustomValidity("この項目を入力してください。");
-      else if (field === email && !emailPattern.test(value)) field.setCustomValidity("半角の@を含むメールアドレスを入力してください。");
+      if (!value) field.setCustomValidity("サンプル");
+      else if (field === email && !emailPattern.test(value)) field.setCustomValidity("サンプル");
       field.toggleAttribute("aria-invalid", !field.validity.valid);
       return field.validity.valid;
     };
@@ -623,8 +623,8 @@
     const heading = document.querySelector("#membership-heading");
     if (!heading) return;
     const spans = heading.querySelectorAll("span");
-    if (spans[0] && spans[0].textContent !== "将来への投資としての、") {
-      spans[0].textContent = "将来への投資としての、";
+    if (spans[0] && spans[0].textContent !== "サンプル") {
+      spans[0].textContent = "サンプル";
     }
     if (spans[1] && spans[1].textContent !== "MEMBERSHIP") spans[1].textContent = "MEMBERSHIP";
   }
@@ -704,7 +704,7 @@
       cta.setAttribute("href", bookingTrialUrl);
       cta.setAttribute("target", "_blank");
       cta.setAttribute("rel", "noopener noreferrer");
-      cta.setAttribute("aria-label", `${selected.label}向けに体験を予約する`);
+      cta.setAttribute("aria-label", `サンプル`);
       const arrow = cta.querySelector('[aria-hidden="true"]');
       setFitCheckText(arrow, "↗");
     }
@@ -1125,7 +1125,7 @@
       replayButton = document.createElement("button");
       replayButton.type = "button";
       replayButton.className = "production-video-replay";
-      replayButton.setAttribute("aria-label", "動画を再生");
+      replayButton.setAttribute("aria-label", "サンプル");
       const heroCard = video.closest('[data-hero-card="true"]');
       if (heroCard) {
         const heroCards = Array.from(document.querySelectorAll('[data-hero-card="true"]'));
@@ -1385,7 +1385,7 @@
     notice.className = "production-reservation-notice";
     notice.setAttribute("role", "status");
     notice.textContent =
-      "オンライン予約ページを準備中です。この確認用フォームからは送信できません。受付開始後、正式な予約ページからお申し込みください。";
+      "サンプルの文章です。";
     (heading || form).insertAdjacentElement(heading ? "afterend" : "afterbegin", notice);
 
     form.querySelectorAll("input, select, textarea").forEach((field) => {
@@ -1399,7 +1399,7 @@
       submit.classList.add("production-disabled-submit");
       submit.setAttribute("aria-disabled", "true");
       const label = submit.querySelector("span") || submit;
-      label.textContent = "予約導線 準備中";
+      label.textContent = "サンプル";
     }
 
     const consent = form.querySelector('input[name="consent"]');
@@ -1408,7 +1408,7 @@
       if (label && !label.querySelector(".production-consent-links")) {
         const links = document.createElement("span");
         links.className = "production-consent-links";
-        links.innerHTML = ' <a href="/privacy-policy/">プライバシーポリシー</a>、<a href="/terms/">利用規約</a>を確認しました。';
+        links.innerHTML = ' <a href="/privacy-policy/">プライバシーポリシー</a>、<a href="/terms/">利用規約</a>サンプル。';
         label.appendChild(links);
       }
     }
@@ -1417,7 +1417,7 @@
       event.preventDefault();
       event.stopImmediatePropagation();
       notice.textContent =
-        "この確認用フォームからは送信できません。受付開始後、正式な予約ページからお申し込みください。";
+        "サンプルの文章です。";
       return false;
     }, true);
   }
@@ -2285,7 +2285,7 @@
     });
     document.querySelectorAll("[data-p0-session-price]").forEach((element) => {
       const value = state.ended ? element.dataset.p0GeneralPrice : element.dataset.p0PresaleOriginal;
-      if (value) element.textContent = `1回あたり ${value}`;
+      if (value) element.textContent = `${value}`;
     });
     document.querySelectorAll("[data-p0-presale-label]").forEach((element) => {
       element.textContent = state.ended ? element.dataset.p0EndedLabel : element.dataset.p0PresaleLabelText;
@@ -2295,7 +2295,7 @@
   function normalizeWatch() {
     document.querySelectorAll(".production-video-replay").forEach((control) => {
       if (control.textContent !== "WATCH →") control.textContent = "WATCH →";
-      if (!control.getAttribute("aria-label")) control.setAttribute("aria-label", "動画を再生");
+      if (!control.getAttribute("aria-label")) control.setAttribute("aria-label", "サンプル");
     });
   }
 
