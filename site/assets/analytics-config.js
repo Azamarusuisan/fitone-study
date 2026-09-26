@@ -1,4 +1,4 @@
-window.FITONE_ANALYTICS_CONFIG = Object.freeze({
+window.VELORA_ANALYTICS_CONFIG = Object.freeze({
   gtmContainerId: "",
   clarityProjectId: ""
 });

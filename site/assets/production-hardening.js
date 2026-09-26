@@ -1,31 +1,31 @@
 
 (() => {
-  const instagramUrl = "https://www.instagram.com/fitone.club/";
-  const youtubeUrl = "https://www.youtube.com/@fitone-club";
+  const instagramUrl = "https://example.com/velora-tokyo";
+  const youtubeUrl = "https://example.com/velora-tokyo-video";
   const assetVersion = "20260801-official-site-v13-membership-band-responsive";
   const bookingSignupUrl = "/_ext/fitone.hacomono.jp/contract/plan/index.html";
   const bookingTrialUrl = "/_ext/fitone.hacomono.jp/reserve/schedule/1/1/index.html";
   const contactApiUrl = "/api/contact" /* ローカル模擬API。本番送信先は fitone-shibuya-booking.vercel.app */;
-  const googleMapsUrl = "https://www.google.com/maps/place/FITONE+SHIBUYA+%E2%9D%98+HYROX+TRAINING+CLUB/@35.6523576,139.7065602,17z/data=!4m14!1m7!3m6!1s0x60188b57b6827083:0xf273b5604e0c521!2sFITONE+SHIBUYA+%E2%9D%98+HYROX+TRAINING+CLUB!8m2!3d35.6523533!4d139.7091351!16s%2Fg%2F11zgrfp_7b!3m5!1s0x60188b57b6827083:0xf273b5604e0c521!8m2!3d35.6523533!4d139.7091351!16s%2Fg%2F11zgrfp_7b!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDcwOC4wIKXMDSoASAFQAw%3D%3D";
+  const googleMapsUrl = "https://www.google.com/maps/search/?api=1&query=VELORA+TOKYO";
   const pageMeta = {
     "/": [
-      "FITONE SHIBUYA | サンプル",
-      "サンプルの文章です。",
+      "VELORA TOKYO | 新宿・代々木のHYROXトレーニングクラブ",
+      "VELORA TOKYOは、新宿・代々木エリアでHYROXに向けたコーチ帯同レッスンとOpen Gymを提供するトレーニングクラブです。",
       "/",
     ],
     "/trial/": [
-      "サンプル | FITONE SHIBUYA",
-      "サンプルの文章です。",
+      "体験レッスン | VELORA TOKYO",
+      "VELORA TOKYOのHYROX体験レッスン案内。持ち物、所要時間、アクセス、予約導線の準備状況を確認できます。",
       "/trial/",
     ],
     "/access/": [
-      "サンプル | FITONE SHIBUYA",
-      "サンプルの文章です。",
+      "アクセス | VELORA TOKYO",
+      "VELORA TOKYOへのアクセス。東京都新宿区架空1丁目2-3 VELORAビル 1F、新宿駅徒歩7分、代々木駅徒歩5分。",
       "/access/",
     ],
 	    "/community/": [
-	      "サンプル | FITONE SHIBUYA",
-	      "サンプルの文章です。",
+	      "コミュニティ | VELORA TOKYO",
+	      "VELORA TOKYOのコミュニティ、イベント、大会参加に関する紹介ページです。InstagramとYouTubeで日々の活動を発信しています。",
 	      "/community/",
 	    ],
   };
@@ -40,45 +40,45 @@
   const fitCheckRecommendations = [
     {
       number: "01",
-      label: "サンプルの選択肢",
-      title: "サンプル見出し",
-      body: "サンプルの文章です。",
-      recommendation: "サンプル",
+      label: "運動を続けたい初心者の方",
+      title: "続けられる仕組みから。",
+      body: "コーチがフォームと強度を調整。少人数レッスンで、まず“通う習慣”を無理なくつくります。",
+      recommendation: "おすすめ — Monthly 4 / BASE",
     },
     {
       number: "02",
-      label: "サンプルの選択肢",
-      title: "サンプル見出し",
-      body: "サンプルの文章です。",
-      recommendation: "サンプル",
+      label: "本格的に鍛えたい方",
+      title: "強度も設計も、任せられる。",
+      body: "元アスリートのコーチが目標から逆算。週2ペースで、伸びを実感できる設計に。",
+      recommendation: "おすすめ — Monthly 8 / PRO",
     },
     {
       number: "03",
-      label: "サンプルの選択肢",
-      title: "サンプル見出し",
-      body: "サンプルの文章です。",
-      recommendation: "サンプル",
+      label: "HYROX・大会に興味がある方",
+      title: "大会から、逆算して走る。",
+      body: "HYROX専用設備とコーチングで、出場・完走まで並走。仲間と同じ舞台を目指せます。",
+      recommendation: "おすすめ — PRO ＋ Community",
     },
     {
       number: "04",
-      label: "サンプルの選択肢",
-      title: "サンプル見出し",
-      body: "サンプルの文章です。",
-      recommendation: "サンプル",
+      label: "仲間と継続したい方",
+      title: "ひとりじゃないから、続く。",
+      body: "同じ目標のチームで励まし合える。継続のいちばんの理由は、いつも仲間です。",
+      recommendation: "おすすめ — Community で仲間を見る",
     },
     {
       number: "05",
-      label: "サンプルの選択肢",
-      title: "サンプル見出し",
-      body: "サンプルの文章です。",
-      recommendation: "サンプル",
+      label: "女性でも通いやすい環境を求める方",
+      title: "はじめてでも、安心して。",
+      body: "清潔で開放的な空間。初回はコーチが一つずつ丁寧に案内するので、ひとりでも大丈夫です。",
+      recommendation: "おすすめ — まずは体験レッスン",
     },
     {
       number: "06",
-      label: "サンプルの選択肢",
-      title: "サンプル見出し",
-      body: "サンプルの文章です。",
-      recommendation: "サンプル",
+      label: "今のジムでは物足りない方",
+      title: "次のレベルへ、環境から。",
+      body: "本格HYROX設備×コーチングで、伸び悩みを超える強度設計を用意します。",
+      recommendation: "おすすめ — All Access / UNLIMITED",
     },
   ];
 
@@ -305,9 +305,9 @@
   function patchCoachProfileLabels() {
     document.querySelectorAll('#coaches [data-coach-mobile-card="true"]').forEach((card) => {
       const cardText = (card.textContent || "").replace(/\s+/g, " ").trim();
-      const expectedRole = cardText.includes("Jong Tae-se")
+      const expectedRole = cardText.includes("Ren Aoyama")
         ? "Co-owner"
-        : cardText.includes("Shota Yamaguchi")
+        : cardText.includes("Leo Minami")
         ? "Chief Performance Advisor"
         : "";
       if (!expectedRole) return;
@@ -319,7 +319,7 @@
     });
     document.querySelectorAll('[data-trainer-item]').forEach((item) => {
       item.querySelectorAll("div, span").forEach((label) => {
-        if (/^Wataru\s+Oguchi$/i.test((label.textContent || "").trim())) label.textContent = "Wataru";
+        if (/^Sora\s+Endo$/i.test((label.textContent || "").trim())) label.textContent = "Sora";
       });
     });
     document.querySelectorAll("span").forEach((label) => {
@@ -391,7 +391,7 @@
       card.style.cursor = "default";
       label.setAttribute("role", "button");
       label.setAttribute("tabindex", "0");
-      label.setAttribute("aria-label", "サンプル");
+      label.setAttribute("aria-label", `${card.dataset.cardLabel || "動画"}を再生`);
       label.style.cursor = "pointer";
       if (label.dataset.productionPlaybackControl !== "true") {
         label.dataset.productionPlaybackControl = "true";
@@ -403,7 +403,7 @@
     });
     document.querySelectorAll(".production-video-replay").forEach((button) => {
       if (button.textContent !== "WATCH →") button.textContent = "WATCH →";
-      button.setAttribute("aria-label", "サンプル");
+      button.setAttribute("aria-label", "動画を再生");
     });
     if (!heroVideoInteractionBound) {
       heroVideoInteractionBound = true;
@@ -450,7 +450,7 @@
       if (link.dataset.productionMembershipLink === "true") return;
       link.dataset.productionMembershipLink = "true";
       link.setAttribute("href", "/#membership");
-      link.setAttribute("aria-label", "サンプル");
+      link.setAttribute("aria-label", "メンバーシップを見る");
       link.style.cursor = "pointer";
       link.addEventListener("keydown", (event) => {
         if (event.key !== " ") return;
@@ -524,10 +524,10 @@
   function contactStatusMessage() {
     const status = new URLSearchParams(window.location.search || "").get("contact");
     if (status === "sent") {
-      return '<div class="border border-[#d4ff3f]/40 bg-[#d4ff3f]/12 px-4 py-3 text-[0.9rem] leading-[1.7] text-[#d4ff3f]">サンプルの文章です。</div>';
+      return '<div class="border border-[#d4ff3f]/40 bg-[#d4ff3f]/12 px-4 py-3 text-[0.9rem] leading-[1.7] text-[#d4ff3f]">お問い合わせを受け付けました。内容を確認のうえ、担当よりご連絡します。</div>';
     }
     if (status === "error") {
-      return '<div class="border border-red-300/30 bg-red-400/10 px-4 py-3 text-[0.9rem] leading-[1.7] text-red-100">サンプルの文章です。</div>';
+      return '<div class="border border-red-300/30 bg-red-400/10 px-4 py-3 text-[0.9rem] leading-[1.7] text-red-100">送信できませんでした。入力内容をご確認のうえ、時間をおいて再度お試しください。</div>';
     }
     return "";
   }
@@ -546,16 +546,16 @@
       <div class="pointer-events-none absolute inset-0"><div class="hero-noise"></div><div class="absolute inset-0 bg-[radial-gradient(circle_at_78%_18%,rgba(212,255,63,0.08),transparent_16%),radial-gradient(circle_at_16%_80%,rgba(255,255,255,0.05),transparent_20%)]"></div></div>
       <div aria-hidden="true" class="pointer-events-none absolute inset-x-[-8%] top-10 font-sans text-[18vw] font-semibold uppercase leading-none tracking-[-0.08em] text-white/[0.04]">CONTACT</div>
       <div class="relative z-10 mx-auto grid max-w-[1680px] gap-10 lg:grid-cols-[minmax(0,0.72fr)_minmax(28rem,0.92fr)] lg:items-start lg:gap-14">
-        <div><div class="text-[0.82rem] uppercase tracking-[0.1em] text-white/54">CONTACT</div><h2 class="fitone-heading-balance mt-5 max-w-[9em] font-sans font-medium leading-[0.94] tracking-[-0.03em] text-[#f4f0e6]">サンプル</h2><p class="mt-6 max-w-[34rem] text-[1rem] leading-[1.9] text-white/68">サンプルの文章です。</p></div>
+        <div><div class="text-[0.82rem] uppercase tracking-[0.1em] text-white/54">CONTACT</div><h2 class="fitone-heading-balance mt-5 max-w-[9em] font-sans font-medium leading-[0.94] tracking-[-0.03em] text-[#f4f0e6]">お問い合わせ</h2><p class="mt-6 max-w-[34rem] text-[1rem] leading-[1.9] text-white/68">取材、その他のご相談はこちらからお問い合わせください。</p></div>
         <form action="${contactApiUrl}" method="post" accept-charset="UTF-8" class="grid gap-5 border border-white/10 bg-white/[0.035] p-5 sm:p-6 lg:p-7" data-production-contact-form="true">
           ${contactStatusMessage()}
-          <div class="grid gap-4 sm:grid-cols-2"><label class="grid gap-2 text-[0.76rem] uppercase tracking-[0.1em] text-white/54"><span class="production-contact-label">サンプル <span aria-hidden="true">*</span></span><input name="last_name" autocomplete="family-name" required maxlength="80" class="min-h-[52px] border border-white/12 bg-black/24 px-4 text-[1rem] text-[#f4f0e6] outline-none focus:border-[#d4ff3f]/70" placeholder="サンプル"/></label><label class="grid gap-2 text-[0.76rem] uppercase tracking-[0.1em] text-white/54"><span class="production-contact-label">サンプル <span aria-hidden="true">*</span></span><input name="first_name" autocomplete="given-name" required maxlength="80" class="min-h-[52px] border border-white/12 bg-black/24 px-4 text-[1rem] text-[#f4f0e6] outline-none focus:border-[#d4ff3f]/70" placeholder="サンプル"/></label></div>
-          <label class="grid gap-2 text-[0.76rem] uppercase tracking-[0.1em] text-white/54"><span class="production-contact-label">サンプル <span aria-hidden="true">*</span></span><input type="email" name="email" autocomplete="email" inputmode="email" required maxlength="160" class="min-h-[52px] border border-white/12 bg-black/24 px-4 text-[1rem] text-[#f4f0e6] outline-none focus:border-[#d4ff3f]/70" placeholder="sample@example.com"/></label>
-          <label class="grid gap-2 text-[0.76rem] uppercase tracking-[0.1em] text-white/54"><span class="production-contact-label">サンプル <span aria-hidden="true">*</span></span><input type="tel" name="phone" autocomplete="tel" required maxlength="40" class="min-h-[52px] border border-white/12 bg-black/24 px-4 text-[1rem] text-[#f4f0e6] outline-none focus:border-[#d4ff3f]/70" placeholder="000-0000-0000"/></label>
-          <label class="grid gap-2 text-[0.76rem] uppercase tracking-[0.1em] text-white/54"><span class="production-contact-label">サンプル <span aria-hidden="true">*</span></span><textarea name="message" required maxlength="4000" rows="7" class="min-h-[12rem] resize-y border border-white/12 bg-black/24 px-4 py-4 text-[1rem] leading-[1.75] text-[#f4f0e6] outline-none focus:border-[#d4ff3f]/70" placeholder="サンプル"></textarea></label>
+          <div class="grid gap-4 sm:grid-cols-2"><label class="grid gap-2 text-[0.76rem] uppercase tracking-[0.1em] text-white/54"><span class="production-contact-label">姓 <span aria-hidden="true">*</span></span><input name="last_name" autocomplete="family-name" required maxlength="80" class="min-h-[52px] border border-white/12 bg-black/24 px-4 text-[1rem] text-[#f4f0e6] outline-none focus:border-[#d4ff3f]/70" placeholder="山田"/></label><label class="grid gap-2 text-[0.76rem] uppercase tracking-[0.1em] text-white/54"><span class="production-contact-label">名 <span aria-hidden="true">*</span></span><input name="first_name" autocomplete="given-name" required maxlength="80" class="min-h-[52px] border border-white/12 bg-black/24 px-4 text-[1rem] text-[#f4f0e6] outline-none focus:border-[#d4ff3f]/70" placeholder="太郎"/></label></div>
+          <label class="grid gap-2 text-[0.76rem] uppercase tracking-[0.1em] text-white/54"><span class="production-contact-label">メールアドレス <span aria-hidden="true">*</span></span><input type="email" name="email" autocomplete="email" inputmode="email" required maxlength="160" class="min-h-[52px] border border-white/12 bg-black/24 px-4 text-[1rem] text-[#f4f0e6] outline-none focus:border-[#d4ff3f]/70" placeholder="yourname@example.com"/></label>
+          <label class="grid gap-2 text-[0.76rem] uppercase tracking-[0.1em] text-white/54"><span class="production-contact-label">電話番号 <span aria-hidden="true">*</span></span><input type="tel" name="phone" autocomplete="tel" required maxlength="40" class="min-h-[52px] border border-white/12 bg-black/24 px-4 text-[1rem] text-[#f4f0e6] outline-none focus:border-[#d4ff3f]/70" placeholder="090-0000-0000"/></label>
+          <label class="grid gap-2 text-[0.76rem] uppercase tracking-[0.1em] text-white/54"><span class="production-contact-label">お問い合わせ内容 <span aria-hidden="true">*</span></span><textarea name="message" required maxlength="4000" rows="7" class="min-h-[12rem] resize-y border border-white/12 bg-black/24 px-4 py-4 text-[1rem] leading-[1.75] text-[#f4f0e6] outline-none focus:border-[#d4ff3f]/70" placeholder="お問い合わせ内容をご記入ください。"></textarea></label>
           <div class="production-contact-honeypot" aria-hidden="true"><label>Website<input type="text" name="website" tabindex="-1" autocomplete="off"/></label></div>
-          <p class="text-[0.78rem] leading-[1.7] text-white/42">サンプルの文章です。</p>
-          <button type="submit" class="inline-flex min-h-[52px] items-center justify-center gap-3 border border-[#d4ff3f] bg-[#d4ff3f] px-5 py-3 text-[0.92rem] tracking-[0.08em] text-[#050505] transition-colors duration-300 hover:bg-[#e0ff67]"><span>サンプル</span><span aria-hidden="true">→</span></button>
+          <p class="text-[0.78rem] leading-[1.7] text-white/42">送信により、入力内容をお問い合わせ対応のために利用することに同意したものとします。</p>
+          <button type="submit" class="inline-flex min-h-[52px] items-center justify-center gap-3 border border-[#d4ff3f] bg-[#d4ff3f] px-5 py-3 text-[0.92rem] tracking-[0.08em] text-[#050505] transition-colors duration-300 hover:bg-[#e0ff67]"><span>問い合わせを送信する</span><span aria-hidden="true">→</span></button>
         </form>
       </div>`;
     footer.parentElement.insertBefore(section, footer);
@@ -572,8 +572,8 @@
     const updateValidity = (field) => {
       const value = String(field.value || "").trim();
       field.setCustomValidity("");
-      if (!value) field.setCustomValidity("サンプル");
-      else if (field === email && !emailPattern.test(value)) field.setCustomValidity("サンプル");
+      if (!value) field.setCustomValidity("この項目を入力してください。");
+      else if (field === email && !emailPattern.test(value)) field.setCustomValidity("半角の@を含むメールアドレスを入力してください。");
       field.toggleAttribute("aria-invalid", !field.validity.valid);
       return field.validity.valid;
     };
@@ -623,8 +623,8 @@
     const heading = document.querySelector("#membership-heading");
     if (!heading) return;
     const spans = heading.querySelectorAll("span");
-    if (spans[0] && spans[0].textContent !== "サンプル") {
-      spans[0].textContent = "サンプル";
+    if (spans[0] && spans[0].textContent !== "将来への投資としての、") {
+      spans[0].textContent = "将来への投資としての、";
     }
     if (spans[1] && spans[1].textContent !== "MEMBERSHIP") spans[1].textContent = "MEMBERSHIP";
   }
@@ -704,7 +704,7 @@
       cta.setAttribute("href", bookingTrialUrl);
       cta.setAttribute("target", "_blank");
       cta.setAttribute("rel", "noopener noreferrer");
-      cta.setAttribute("aria-label", `サンプル`);
+      cta.setAttribute("aria-label", `${selected.label}向けに体験を予約する`);
       const arrow = cta.querySelector('[aria-hidden="true"]');
       setFitCheckText(arrow, "↗");
     }
@@ -1125,7 +1125,7 @@
       replayButton = document.createElement("button");
       replayButton.type = "button";
       replayButton.className = "production-video-replay";
-      replayButton.setAttribute("aria-label", "サンプル");
+      replayButton.setAttribute("aria-label", "動画を再生");
       const heroCard = video.closest('[data-hero-card="true"]');
       if (heroCard) {
         const heroCards = Array.from(document.querySelectorAll('[data-hero-card="true"]'));
@@ -1385,7 +1385,7 @@
     notice.className = "production-reservation-notice";
     notice.setAttribute("role", "status");
     notice.textContent =
-      "サンプルの文章です。";
+      "オンライン予約ページを準備中です。この確認用フォームからは送信できません。受付開始後、正式な予約ページからお申し込みください。";
     (heading || form).insertAdjacentElement(heading ? "afterend" : "afterbegin", notice);
 
     form.querySelectorAll("input, select, textarea").forEach((field) => {
@@ -1399,7 +1399,7 @@
       submit.classList.add("production-disabled-submit");
       submit.setAttribute("aria-disabled", "true");
       const label = submit.querySelector("span") || submit;
-      label.textContent = "サンプル";
+      label.textContent = "予約導線 準備中";
     }
 
     const consent = form.querySelector('input[name="consent"]');
@@ -1408,7 +1408,7 @@
       if (label && !label.querySelector(".production-consent-links")) {
         const links = document.createElement("span");
         links.className = "production-consent-links";
-        links.innerHTML = ' <a href="/privacy-policy/">プライバシーポリシー</a>、<a href="/terms/">利用規約</a>サンプル。';
+        links.innerHTML = ' <a href="/privacy-policy/">プライバシーポリシー</a>、<a href="/terms/">利用規約</a>を確認しました。';
         label.appendChild(links);
       }
     }
@@ -1417,7 +1417,7 @@
       event.preventDefault();
       event.stopImmediatePropagation();
       notice.textContent =
-        "サンプルの文章です。";
+        "この確認用フォームからは送信できません。受付開始後、正式な予約ページからお申し込みください。";
       return false;
     }, true);
   }
@@ -1441,7 +1441,7 @@
 
     const sticky = Array.from(document.querySelectorAll("div.fixed.inset-x-0.bottom-0")).find((element) => {
       const text = element.textContent || "";
-      return element.dataset.p0StickyPromo === "true" || text.includes("先着100名") || text.includes("Limited Entry");
+      return element.dataset.p0StickyPromo === "true" || text.includes("先着80名") || text.includes("Limited Entry");
     });
     if (sticky) {
       sticky.classList.remove("production-sticky-promo-visible");
@@ -1453,7 +1453,7 @@
   function stickyPromoElement() {
     return Array.from(document.querySelectorAll("div.fixed.inset-x-0.bottom-0")).find((element) => {
       const text = element.textContent || "";
-      return element.dataset.p0StickyPromo === "true" || text.includes("先着100名") || text.includes("Limited Entry");
+      return element.dataset.p0StickyPromo === "true" || text.includes("先着80名") || text.includes("Limited Entry");
     });
   }
 
@@ -2029,7 +2029,7 @@
   bindMediaLifecycle();
 })();
 
-/* FITONE Phase 7 Safe Unit A reproducible JS fragment */
+/* VELORA Phase 7 Safe Unit A reproducible JS fragment */
 (() => {
   "use strict";
 
@@ -2105,7 +2105,7 @@
   }
 })();
 
-/* FITONE Phase 7 hero playback and FIT CHECK corrections */
+/* VELORA Phase 7 hero playback and FIT CHECK corrections */
 (() => {
   "use strict";
 
@@ -2203,7 +2203,7 @@
   function bindStickyPromoStability() {
     Array.from(document.querySelectorAll("div.fixed.inset-x-0.bottom-0")).forEach((element) => {
       const text = element.textContent || "";
-      if (element.dataset.p0StickyPromo === "true" || text.includes("先着100名") || text.includes("Limited Entry")) {
+      if (element.dataset.p0StickyPromo === "true" || text.includes("先着80名") || text.includes("Limited Entry")) {
         element.classList.add("production-sticky-promo");
       }
     });
@@ -2223,7 +2223,7 @@
   else start();
 })();
 
-/* FITONE P0 official-site corrections */
+/* VELORA P0 official-site corrections */
 (() => {
   "use strict";
   const deadlineMs = Date.UTC(2026, 6, 31, 14, 59, 59);
@@ -2244,9 +2244,9 @@
       if (priority) image.fetchPriority = "high";
       return image;
     };
-    const fixed = document.querySelector('[data-global-header="true"] a[aria-label="FITONE home"]');
+    const fixed = document.querySelector('[data-global-header="true"] a[aria-label="VELORA home"]');
     const fixedImage = fixed?.querySelector('[data-p0-brand-logo="fixed"]');
-    if (fixed && (!fixedImage || fixedImage.getAttribute("src") !== `/assets/fitone-logo-white.png${assetQuery}` || fixed.children.length !== 1)) fixed.replaceChildren(createImage({ kind: "fixed", src: `/assets/fitone-logo-white.png${assetQuery}`, alt: "FITONE", width: 1881, height: 348 }));
+    if (fixed && (!fixedImage || fixedImage.getAttribute("src") !== `/assets/fitone-logo-white.png${assetQuery}` || fixed.children.length !== 1)) fixed.replaceChildren(createImage({ kind: "fixed", src: `/assets/fitone-logo-white.png${assetQuery}`, alt: "VELORA", width: 1881, height: 348 }));
     const hero = document.querySelector('[data-hero-logo="true"]');
     const lockup = hero?.querySelector('[data-p0-brand-lockup="hero"]');
     const fitone = lockup?.querySelector('[data-p0-brand-logo="hero-fitone"]');
@@ -2255,8 +2255,8 @@
     if (hero && !validHero) {
       const wrapper = document.createElement("span");
       wrapper.dataset.p0BrandLockup = "hero";
-      wrapper.append(createImage({ kind: "hero-fitone", src: `/assets/fitone-logo-white.png${assetQuery}`, alt: "FITONE", width: 1881, height: 348, priority: true }));
-      wrapper.append(createImage({ kind: "hero-shibuya", src: `/assets/shibuya-logo-white.png${assetQuery}`, alt: "SHIBUYA", width: 2368, height: 380, priority: true }));
+      wrapper.append(createImage({ kind: "hero-fitone", src: `/assets/fitone-logo-white.png${assetQuery}`, alt: "VELORA", width: 1881, height: 348, priority: true }));
+      wrapper.append(createImage({ kind: "hero-shibuya", src: `/assets/shibuya-logo-white.png${assetQuery}`, alt: "TOKYO", width: 2368, height: 380, priority: true }));
       hero.replaceChildren(wrapper);
     }
   }
@@ -2285,7 +2285,7 @@
     });
     document.querySelectorAll("[data-p0-session-price]").forEach((element) => {
       const value = state.ended ? element.dataset.p0GeneralPrice : element.dataset.p0PresaleOriginal;
-      if (value) element.textContent = `${value}`;
+      if (value) element.textContent = `1回あたり ${value}`;
     });
     document.querySelectorAll("[data-p0-presale-label]").forEach((element) => {
       element.textContent = state.ended ? element.dataset.p0EndedLabel : element.dataset.p0PresaleLabelText;
@@ -2295,7 +2295,7 @@
   function normalizeWatch() {
     document.querySelectorAll(".production-video-replay").forEach((control) => {
       if (control.textContent !== "WATCH →") control.textContent = "WATCH →";
-      if (!control.getAttribute("aria-label")) control.setAttribute("aria-label", "サンプル");
+      if (!control.getAttribute("aria-label")) control.setAttribute("aria-label", "動画を再生");
     });
   }
 

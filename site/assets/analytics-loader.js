@@ -1,5 +1,5 @@
 (() => {
-  const config = window.FITONE_ANALYTICS_CONFIG || {};
+  const config = window.VELORA_ANALYTICS_CONFIG || {};
   const gtmContainerId = /^GTM-[A-Z0-9]{5,12}$/.test(String(config.gtmContainerId || "").toUpperCase())
     ? String(config.gtmContainerId).toUpperCase()
     : "";

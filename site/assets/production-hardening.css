@@ -591,7 +591,7 @@ body.production-static-runtime [data-motion-stage="pre"] [data-hero-card="true"]
   filter: none !important;
 }
 
-body.production-hide-fixed-brand [data-global-header="true"] a[aria-label="FITONE home"] {
+body.production-hide-fixed-brand [data-global-header="true"] a[aria-label="VELORA home"] {
   opacity: 0 !important;
   pointer-events: none !important;
   transform: translateY(-0.35rem) !important;
@@ -832,7 +832,7 @@ footer {
   line-height: 0.98 !important;
 }
 
-/* FITONE Phase 7 coach non-overlap contract: names live in dedicated opaque
+/* VELORA Phase 7 coach non-overlap contract: names live in dedicated opaque
    grid areas above their media instead of absolute coordinates over video. */
 @media (min-width: 1024px) {
   #coaches [data-coaches-stage="true"] {
@@ -1003,7 +1003,7 @@ footer {
   }
 }
 
-/* FITONE Phase 7 Safe Unit A reproducible CSS fragment */
+/* VELORA Phase 7 Safe Unit A reproducible CSS fragment */
 @media (min-width: 768px) {
   [data-hero-wrapper="true"] {
     height: 120svh !important;
@@ -1211,7 +1211,7 @@ body:not(.production-runtime-enhanced) [data-card-watch-ui="true"] {
   outline-offset: 6px;
 }
 
-/* FITONE Phase 7 mobile sticky promo polish */
+/* VELORA Phase 7 mobile sticky promo polish */
 @media (max-width: 767px) {
   .production-sticky-promo {
     padding: 0 0.75rem 0.75rem !important;
@@ -1255,7 +1255,7 @@ body:not(.production-runtime-enhanced) [data-card-watch-ui="true"] {
   }
 }
 
-/* FITONE Phase 7 hero and FIT CHECK corrections */
+/* VELORA Phase 7 hero and FIT CHECK corrections */
 
 @media (min-width: 1024px) {
   [data-hero-copy="true"] {
@@ -1349,7 +1349,7 @@ body.production-runtime-enhanced [data-hero-card="true"].phase7-video-fallback .
   }
 }
 
-/* FITONE Phase 7 V52 membership benefits and hourly schedule */
+/* VELORA Phase 7 V52 membership benefits and hourly schedule */
 .production-membership-benefits{position:relative;z-index:10;margin-top:2rem;display:grid;gap:1.25rem;border:1px solid rgba(5,5,5,.12);background:rgba(212,255,63,.12);padding:1.25rem;color:#050505}.production-membership-benefits-heading>span{font-size:.7rem;letter-spacing:.13em;color:rgba(5,5,5,.46)}.production-membership-benefits h3{margin:.55rem 0 0;font-size:clamp(1.2rem,2.2vw,1.7rem);line-height:1.35;letter-spacing:-.03em}.production-membership-benefits ul{display:grid;gap:1px;margin:0;padding:0;list-style:none;background:rgba(5,5,5,.1)}.production-membership-benefits li{display:grid;gap:.4rem;background:#f2ecdf;padding:1rem}.production-membership-benefits li strong{font-size:.7rem;letter-spacing:.12em;color:rgba(5,5,5,.48)}.production-membership-benefits li span{font-size:.94rem;line-height:1.65}.production-calendar-scroll{display:block;margin-top:1.5rem;overflow:hidden;border:1px solid rgba(5,5,5,.12);background:rgba(255,255,255,.28)}.production-calendar-canvas{min-width:0}.production-calendar-header,.production-calendar-body{display:grid;grid-template-columns:2.75rem repeat(7,minmax(0,1fr))}.production-calendar-header{border-bottom:1px solid rgba(5,5,5,.12);background:rgba(5,5,5,.035)}.production-calendar-header>div{min-width:0;border-right:1px solid rgba(5,5,5,.1);padding:.7rem .1rem;text-align:center;font-size:.68rem;font-weight:600}.production-calendar-header>div:first-child{font-size:.5rem;font-weight:400;letter-spacing:.02em;color:rgba(5,5,5,.42)}.production-calendar-header>div:last-child{border-right:0}.production-calendar-body{background-image:repeating-linear-gradient(to bottom,transparent 0,transparent 55px,rgba(5,5,5,.1) 55px,rgba(5,5,5,.1) 56px)}.production-calendar-time-axis{position:relative;height:840px;border-right:1px solid rgba(5,5,5,.12)}.production-calendar-time-axis span{position:absolute;top:calc(var(--hour) * 56px);right:.25rem;transform:translateY(-50%);font-size:.5rem;color:rgba(5,5,5,.48)}.production-calendar-time-axis span:first-child{transform:none}.production-calendar-time-axis span:last-child{transform:translateY(-100%)}.production-calendar-day{display:grid;min-width:0;height:840px;grid-template-rows:repeat(60,14px);border-right:1px solid rgba(5,5,5,.1)}.production-calendar-day:last-child{border-right:0}.production-calendar-event{position:relative;z-index:1;grid-row:var(--row)/span var(--span);display:flex;min-width:0;flex-direction:column;align-items:center;justify-content:center;overflow:hidden;margin:1px;border-radius:.48rem;padding:.12rem;text-align:center;line-height:1.02}.production-calendar-event strong{max-width:100%;font-size:.58rem;font-weight:700;letter-spacing:-.035em}.production-calendar-event small{display:block;margin-top:.13rem;font-size:.5rem;font-weight:500;letter-spacing:0;opacity:.82}.production-calendar-event.is-hyrox{background:#050505;color:#f4f0e6}.production-calendar-event.is-open{border:1px solid rgba(5,5,5,.1);background:#d9d0c3;color:#050505}.production-calendar-event.is-open strong{font-size:.54rem}.production-calendar-event.is-run{background:#d4ff3f;color:#050505}.production-calendar-event.is-run strong{font-size:.5rem}
 .production-calendar-body{--time-axis-width:2.75rem;position:relative;background-image:none}.production-calendar-gridlines{position:absolute;z-index:3;top:0;right:0;bottom:0;left:var(--time-axis-width);pointer-events:none}.production-calendar-gridlines span{position:absolute;right:0;left:0;top:calc(var(--hour-line) * 56px);border-top:1px solid rgba(5,5,5,.12)}.production-calendar-time-axis{z-index:4;background:#f4f0e6}.production-calendar-event{z-index:2}
 @media(max-width:639px){.production-calendar-scroll{overflow-x:auto;overflow-y:hidden;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch}.production-calendar-canvas{min-width:36rem}.production-calendar-scroll::-webkit-scrollbar{height:5px}.production-calendar-scroll::-webkit-scrollbar-thumb{border-radius:999px;background:rgba(5,5,5,.24)}}
@@ -1361,10 +1361,10 @@ body.production-runtime-enhanced [data-hero-card="true"].phase7-video-fallback .
 @media(min-width:640px){.production-calendar-header,.production-calendar-body{grid-template-columns:3.5rem repeat(7,minmax(0,1fr))}.production-calendar-header>div{padding:.8rem .2rem;font-size:.78rem}.production-calendar-header>div:first-child,.production-calendar-time-axis span{font-size:.58rem}.production-calendar-time-axis span{right:.4rem}.production-calendar-event{margin:2px 3px;border-radius:.72rem}}
 @media(min-width:1024px){.production-calendar-header,.production-calendar-body{grid-template-columns:4.5rem repeat(7,minmax(0,1fr))}.production-calendar-header>div{padding:.85rem .35rem;font-size:.86rem}.production-calendar-header>div:first-child,.production-calendar-time-axis span{font-size:.66rem}.production-calendar-time-axis span{right:.55rem}.production-calendar-event{margin:2px 6px;border-radius:1rem;padding:.2rem}}
 
-/* FITONE Phase 7 OPEN GYM schedule detail */
+/* VELORA Phase 7 OPEN GYM schedule detail */
 .production-day-slot-restored strong.is-run{background:#d4ff3f;color:#050505}
 
-/* FITONE P0 official-site corrections */
+/* VELORA P0 official-site corrections */
 [data-p0-hero-card-grid="true"]{display:grid!important;width:100%;max-width:min(100%,60rem)!important;grid-template-columns:repeat(3,minmax(0,1fr));align-items:center;gap:clamp(.35rem,1.2vw,1rem)!important}
 [data-p0-hero-card-grid="true"]>[data-hero-card="true"]{width:100%!important;max-width:none!important;margin:0!important;transform:none!important}
 [data-p0-role="true"]{text-transform:none!important;letter-spacing:.08em!important}
@@ -1372,7 +1372,7 @@ body.production-runtime-enhanced [data-hero-card="true"].phase7-video-fallback .
 [data-p0-membership-plan-selector][aria-pressed="true"]{background:linear-gradient(180deg,rgba(5,5,5,.98),rgba(32,32,28,.92))!important;color:#f4f0e6!important}[data-p0-membership-plan-selector][aria-pressed="false"]{background:linear-gradient(180deg,rgba(255,255,255,.3),rgba(240,232,220,.54))!important;color:#050505!important}
 .p0-running-club-mobile-break,.p0-personal-friend-break{display:block}.p0-running-club-separator{display:none}
 .p0-subplans{position:relative;z-index:10;margin-top:2rem;border-top:1px solid rgba(5,5,5,.12);padding-top:1.5rem}.p0-subplans__heading{font-size:.72rem;letter-spacing:.12em;color:rgba(5,5,5,.5)}.p0-subplans__grid{display:grid;gap:.75rem;margin-top:1rem}.p0-subplan{display:block;border:1px solid rgba(5,5,5,.12);background:rgba(255,255,255,.28);padding:1rem;color:#050505;text-decoration:none}.p0-subplan:focus-visible{outline:3px solid #b6f12d;outline-offset:3px}.p0-subplan h3{margin:0;font-size:1rem;letter-spacing:.04em;color:#050505}.p0-subplan strong{display:block;margin-top:.55rem;font-size:1.25rem;font-weight:500;color:#050505}.p0-subplan p{margin:.55rem 0 0;font-size:.84rem;line-height:1.65;color:rgba(5,5,5,.68)}
-[data-p0-brand-logo]{display:block;width:auto;max-width:100%;object-fit:contain}.global-header a[aria-label="FITONE home"]{mix-blend-mode:difference}.global-header [data-p0-brand-logo="fixed"]{width:clamp(6.4rem,8vw,8.1rem);height:auto}[data-p0-brand-lockup="hero"]{display:flex;flex-direction:column;align-items:flex-start;gap:clamp(.22rem,.5vw,.4rem);mix-blend-mode:normal}[data-p0-brand-logo="hero-fitone"]{width:clamp(9.25rem,18vw,13rem);height:auto}[data-p0-brand-logo="hero-shibuya"]{width:clamp(3.75rem,7vw,5rem);height:auto}
+[data-p0-brand-logo]{display:block;width:auto;max-width:100%;object-fit:contain}.global-header a[aria-label="VELORA home"]{mix-blend-mode:difference}.global-header [data-p0-brand-logo="fixed"]{width:clamp(6.4rem,8vw,8.1rem);height:auto}[data-p0-brand-lockup="hero"]{display:flex;flex-direction:column;align-items:flex-start;gap:clamp(.22rem,.5vw,.4rem);mix-blend-mode:normal}[data-p0-brand-logo="hero-fitone"]{width:clamp(9.25rem,18vw,13rem);height:auto}[data-p0-brand-logo="hero-shibuya"]{width:clamp(3.75rem,7vw,5rem);height:auto}
 [data-p0-general-reference="true"]{transition:opacity .2s ease}[data-p0-presale-label="true"]{transition:opacity .2s ease}html[data-p0-presale-ended="true"] [data-p0-general-reference="true"]{display:none}
 .production-video-replay,.production-video-static-fallback{min-width:44px;min-height:44px;border:0!important;border-radius:0!important;background:transparent!important;padding:.75rem .25rem!important;color:rgba(255,255,255,.72)!important;font-size:.72rem!important;font-weight:500!important;letter-spacing:.1em!important;box-shadow:none!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important}
 .p0-video-noscript{position:absolute;right:.75rem;bottom:.75rem;z-index:12;display:inline-flex;min-width:44px;min-height:44px;align-items:center;color:rgba(255,255,255,.76);font-size:.72rem;letter-spacing:.1em;text-decoration:none}
@@ -1399,7 +1399,7 @@ body.production-runtime-enhanced [data-hero-card="true"].phase7-video-fallback .
 @media(max-width:374px){[data-p0-hero-card-grid="true"]{gap:.25rem!important}.fitone-heading-balance>span{white-space:normal;text-wrap:balance}#why [data-why-section-heading="true"]{font-size:clamp(2.1rem,9.2vw,2.15rem)!important}#why [data-why-section-heading="true"]>span{white-space:nowrap;text-wrap:nowrap}}
 @media(prefers-reduced-motion:reduce){.production-video-replay,.production-video-static-fallback{transition:none!important}}
 
-/* FITONE membership-band-responsive */
+/* VELORA membership-band-responsive */
 @media (max-width: 767px) {
   .production-sticky-promo > div > div > [data-production-membership-link="true"]:first-child {
     display: none !important;
